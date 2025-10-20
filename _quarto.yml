@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jesús Cáceres Tello"
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Publications"
+        href: "#publications"
+      - icon: github
+        href: https://github.com/jcaceres-academico
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jcaceresjt/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
