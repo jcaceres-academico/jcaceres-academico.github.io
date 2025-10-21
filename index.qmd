@@ -1,13 +1,13 @@
 ---
 title: "Jesús Cáceres Tello"
-subtitle: "<span class='portfolio-sub'>Academic Portfolio</span>"
+subtitle: "Academic Portfolio"
 format:
   html:
     theme: cosmo
     toc: true
     toc-title: "Contents"
     toc-location: left
-    number-sections: true
+    number-sections: false
     page-layout: full
 engine: knitr
 execute:
@@ -17,11 +17,6 @@ execute:
   freeze: auto
   allow-html: true
 ---
-
-<div class="research-areas">
-  <strong>Research & Teaching Areas:</strong> 
-  Open Science · Reproducible Research · Machine Learning · Environmental Data · STEM Education · Quantum Computing · Educational Innovation
-</div>
 
 
 # 👨‍🏫 About

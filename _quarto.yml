@@ -1,23 +1,42 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - readme.qmd
+    - notebooks/*.ipynb
 
 website:
   title: "Jesús Cáceres Tello"
   navbar:
+    background: "#1E3A8A"
+    foreground: "white"
     right:
       - text: "Home"
         href: index.qmd
+      - text: "README"
+        href: readme.qmd
+      - text: "Notebook"
+        href: notebooks/applied-science-analysis.ipynb
       - text: "Publications"
-        href: "#publications"
+        href: "index.html#publications"
       - icon: github
-        href: https://github.com/jcaceres-academico
+        href: "https://github.com/jcaceres-academico"
       - icon: linkedin
-        href: https://www.linkedin.com/in/jcaceresjt/
+        href: "https://www.linkedin.com/in/cacerestj/"
+
+  page-footer:
+    left: "© 2025 Jesús Cáceres Tello"
+    right: "Built with ❤️ using Quarto & GitHub Pages"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 2
+    toc-location: left
+    toc-title: "Contents"
+    page-layout: full
+    number-sections: true
+
+
