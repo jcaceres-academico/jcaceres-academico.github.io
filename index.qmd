@@ -3,6 +3,9 @@ title: "Jesús Cáceres Tello"
 subtitle: "Academic Portfolio"
 format:
   html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     theme: cosmo
     toc: true
     toc-title: "Contents"
@@ -55,51 +58,50 @@ His current interests combine **technology, sustainability, and education**, fos
 
 <div class="row g-4">
 
-<div class="col-md-6">
-<div class="card shadow-sm border-0 p-3 h-100">
-<div class="card-body">
-<h5 class="card-title">🎓 Citizen Science and STEM Education with R</h5>
-<p class="card-text">
-Reproducible learning from open urban air and meteorological data (Madrid, 2020–2024)
-</p>
-<p>
-<a href="#" class="btn btn-primary btn-sm">📄 Article (Applied Sciences, 2025)</a>
-<a href="https://github.com/jcaceres-academico/OpenUrbanAirandMeteorological" class="btn btn-info btn-sm">💻 Repository</a>
-<a href="https://jcaceres-academico.github.io/OpenUrbanAirandMeteorological/docs/OpenUrbanAir_and_Meteorological_Workflow.html" class="btn btn-success btn-sm">📘 Notebook</a>
-</p>
-</div>
-</div>
-</div>
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="card-body">
+        <h5 class="card-title">🎓 Citizen Science and STEM Education with R</h5>
+        <p class="card-text">
+          Reproducible learning from open urban air and meteorological data (Madrid, 2020–2024)
+        </p>
+        <p>
+          <a href="https://jcaceres-academico.github.io/OpenUrbanAirandMeteorological/" target="_blank" class="btn btn-primary btn-sm">📄 Article (Applied Sciences, 2025)</a>
+          <a href="https://github.com/jcaceres-academico/OpenUrbanAirandMeteorological" target="_blank" class="btn btn-info btn-sm">💻 Repository</a>
+          <a href="https://jcaceres-academico.github.io/OpenUrbanAirandMeteorological/docs/notebooks/summary.html" target="_blank" class="btn btn-success btn-sm">📘 Notebook</a>
+        </p>
+      </div>
+    </div>
+  </div>
 
-<div class="col-md-6">
-<div class="card shadow-sm border-0 p-3 h-100">
-<div class="card-body">
-<h5 class="card-title">🌱 Behavioural and Institutional Drivers of Green Technology Adoption</h5>
-<p class="card-text">
-A TAM-based framework for sustainability transitions (Frontiers in Psychology, 2025)
-</p>
-<p>
-<a href="#" class="btn btn-primary btn-sm">📄 Article</a>
-<a href="https://github.com/jcaceres-academico/GreenTechnologyAdoption" class="btn btn-info btn-sm">💻 Repository</a>
-<a href="#" class="btn btn-success btn-sm">📘 README</a>
-</p>
-</div>
-</div>
-</div>
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="card-body">
+        <h5 class="card-title">🌱 Behavioural and Institutional Drivers of Green Technology Adoption</h5>
+        <p class="card-text">
+          A TAM-based framework for sustainability transitions (Frontiers in Psychology, 2025)
+        </p>
+        <p>
+          <a href="#" target="_blank" class="btn btn-primary btn-sm">📄 Article</a>
+          <a href="https://github.com/jcaceres-academico/GreenTechnologyAdoption" target="_blank" class="btn btn-info btn-sm">💻 Repository</a>
+          <a href="#" target="_blank" class="btn btn-success btn-sm">📘 README</a>
+        </p>
+      </div>
+    </div>
+  </div>
 
 </div>
-
 
 ---
 
 # 🌐 Connect
 
-<div class="links-block">
-<a href="https://www.linkedin.com/in/jcaceresjt/">🔗 LinkedIn</a> · 
-<a href="https://es.scribd.com/user/216839998/Jesus-Caceres-Tello">📘 Scribd</a> · 
-<a href="https://es.slideshare.net/JessCceresTello/">📊 SlideShare</a> · 
+<div class="connect-icons" style="display:flex; flex-wrap:wrap; gap:1rem; align-items:center;">
+<a href="https://www.linkedin.com/in/jcaceresjt/"><i class="bi bi-linkedin"></i> LinkedIn</a> · 
+<a href="https://es.scribd.com/user/216839998/Jesus-Caceres-Tello"><i class="bi bi-file-earmark-text"></i> Scribd</a> · 
+<a href="https://es.slideshare.net/JessCceresTello/"><i class="bi bi-sliders"></i> SlideShare</a> · 
 <a href="https://goldendatascience.blogspot.com/">🧠 Blog</a> · 
-<a href="https://orcid.org">🧬 ORCID</a>
+<a href="https://orcid.org"><i class="bi bi-circle"></i> ORCID</a>
 </div>
 
 ---

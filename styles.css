@@ -94,6 +94,17 @@ main.content {
   color: #6b7280;
 }
 
+/* === CONNECT ICONS === */
+.connect-icons a i {
+  font-size: 2rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.connect-icons a:hover i {
+  transform: scale(1.15);
+  opacity: 0.85;
+}
+
 
 /* === MAIN CONTENT WIDTH === */
 main.content {
