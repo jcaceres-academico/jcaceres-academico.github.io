@@ -12,13 +12,13 @@ format:
     toc-location: left
     number-sections: false
     page-layout: full
-engine: knitr
+    allow-html: true
+engine: quarto
 execute:
   echo: false
   warning: false
   message: false
   freeze: auto
-  allow-html: true
 ---
 
 
@@ -56,6 +56,7 @@ His current interests combine **technology, sustainability, and education**, fos
 
 # 📚 Publications & Open Repositories
 
+```{=html}
 <div class="row g-4">
 
   <div class="col-md-6">
@@ -91,17 +92,40 @@ His current interests combine **technology, sustainability, and education**, fos
   </div>
 
 </div>
-
+```
 ---
 
 # 🌐 Connect
 
-<div class="connect-icons" style="display:flex; flex-wrap:wrap; gap:1rem; align-items:center;">
-<a href="https://www.linkedin.com/in/jcaceresjt/"><i class="bi bi-linkedin"></i> LinkedIn</a> · 
-<a href="https://es.scribd.com/user/216839998/Jesus-Caceres-Tello"><i class="bi bi-file-earmark-text"></i> Scribd</a> · 
-<a href="https://es.slideshare.net/JessCceresTello/"><i class="bi bi-sliders"></i> SlideShare</a> · 
-<a href="https://goldendatascience.blogspot.com/">🧠 Blog</a> · 
-<a href="https://orcid.org"><i class="bi bi-circle"></i> ORCID</a>
+```{=html}
+
+<div style="display:flex; flex-wrap:wrap; gap:1.2rem; align-items:center; justify-content:flex-start;">
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/jcacerestj/" target="_blank" title="LinkedIn" style="text-decoration:none;">
+    <i class="bi bi-linkedin" style="font-size:2rem; color:#0A66C2;"></i>
+  </a>
+
+  <!-- Scribd -->
+  <a href="https://www.scribd.com/user/218639089/Jes%C3%BAs-C%C3%A1ceres-Tello" target="_blank" title="Scribd" style="text-decoration:none;">
+    <img src="images/scribd.png" alt="Scribd" class="icon-img">
+  </a>
+
+  <!-- SlideShare -->
+  <a href="https://www.slideshare.net/JesusCaceresTello" target="_blank" title="SlideShare" style="text-decoration:none;">
+    <img src="images/slideshare.png" alt="SlideShare" class="icon-img">
+  </a>
+
+  <!-- Blog (Golden Data Science) -->
+  <a href="https://goldendatascience.com" target="_blank" title="Blog" style="text-decoration:none;">
+    <i class="bi bi-journal-text" style="font-size:2rem; color:#FBBF24;"></i>
+  </a>
+
+  <!-- ORCID -->
+  <a href="https://orcid.org/0000-0002-5536-3623" target="_blank" title="ORCID" style="text-decoration:none;">
+    <img src="images/orcid.png" alt="ORCID" class="icon-img">
+  </a>
+
 </div>
 
 ---
@@ -109,3 +133,4 @@ His current interests combine **technology, sustainability, and education**, fos
 <div class="footer">
 © 2025 **Jesús Cáceres Tello** — Hosted on [GitHub Pages](https://github.com/jcaceres-academico/jcaceres-academico.github.io) · Powered by [Quarto](https://quarto.org)
 </div>
+```

@@ -66,6 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -93,7 +94,15 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#publications"> 
+    <a class="nav-link" href="./readme.qmd"> 
+<span class="menu-text">README</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./notebooks/applied-science-analysis.ipynb"> 
+<span class="menu-text">Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#publications"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item compact">
@@ -102,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/jcaceresjt/"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/cacerestj/"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -120,11 +129,11 @@ ul.task-list li input[type="checkbox"] {
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
-  <ul class="collapse">
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about"><span class="header-section-number">1</span> 👨‍🏫 About</a></li>
-  <li><a href="#research-teaching-areas" id="toc-research-teaching-areas" class="nav-link" data-scroll-target="#research-teaching-areas"><span class="header-section-number">2</span> 🔬 Research &amp; Teaching Areas</a></li>
-  <li><a href="#publications-open-repositories" id="toc-publications-open-repositories" class="nav-link" data-scroll-target="#publications-open-repositories"><span class="header-section-number">3</span> 📚 Publications &amp; Open Repositories</a></li>
-  <li><a href="#connect" id="toc-connect" class="nav-link" data-scroll-target="#connect"><span class="header-section-number">4</span> 🌐 Connect</a></li>
+  <ul>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">👨‍🏫 About</a></li>
+  <li><a href="#research-teaching-areas" id="toc-research-teaching-areas" class="nav-link" data-scroll-target="#research-teaching-areas">🔬 Research &amp; Teaching Areas</a></li>
+  <li><a href="#publications-open-repositories" id="toc-publications-open-repositories" class="nav-link" data-scroll-target="#publications-open-repositories">📚 Publications &amp; Open Repositories</a></li>
+  <li><a href="#connect" id="toc-connect" class="nav-link" data-scroll-target="#connect">🌐 Connect</a></li>
   </ul>
 </nav>
 </nav>
@@ -138,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Jesús Cáceres Tello</h1>
-<p class="subtitle lead"><span class="portfolio-sub">Academic Portfolio</span></p>
+<p class="subtitle lead">Academic Portfolio</p>
 </div>
 
 
@@ -155,11 +164,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="research-areas">
-<p><strong>Research &amp; Teaching Areas:</strong> Open Science · Reproducible Research · Machine Learning · Environmental Data · STEM Education · Quantum Computing · Educational Innovation</p>
-</div>
-<section id="about" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 👨‍🏫 About</h1>
+<section id="about" class="level1">
+<h1>👨‍🏫 About</h1>
 <div class="intro-block">
 <p><strong>Jesús Cáceres Tello</strong> is a computer scientist and educator with extensive experience in ICT, higher education, and applied research in environmental informatics and educational innovation.<br>
 He holds a <strong>Diploma in Computer Science</strong> from the University of Málaga, a <strong>B.Sc. in Computer Engineering</strong> from the Catholic University of Ávila, and a <strong>Master’s degree in Educational Informatics</strong> from the University of Alcalá. He is currently pursuing his <strong>Ph.D.&nbsp;at the Faculty of Statistical Studies, Complutense University of Madrid</strong>.</p>
@@ -173,8 +179,8 @@ Since 2014, he has served at the <strong>Madrid City Council</strong>, leading t
 </div>
 <hr>
 </section>
-<section id="research-teaching-areas" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> 🔬 Research &amp; Teaching Areas</h1>
+<section id="research-teaching-areas" class="level1">
+<h1>🔬 Research &amp; Teaching Areas</h1>
 <ul>
 <li>🌍 Environmental data modelling and air quality forecasting<br>
 </li>
@@ -190,50 +196,81 @@ Since 2014, he has served at the <strong>Madrid City Council</strong>, leading t
 </ul>
 <hr>
 </section>
-<section id="publications-open-repositories" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> 📚 Publications &amp; Open Repositories</h1>
+<section id="publications-open-repositories" class="level1">
+<h1>📚 Publications &amp; Open Repositories</h1>
 <div class="row g-4">
-<div class="col-md-6">
-<div class="card shadow-sm border-0 p-3 h-100">
-<div class="card-body">
-<h5 class="card-title anchored" data-anchor-id="publications-open-repositories">
-🎓 Citizen Science and STEM Education with R
-</h5>
-<p class="card-text">
-Reproducible learning from open urban air and meteorological data (Madrid, 2020–2024)
-</p>
-<p>
-<a href="#" class="btn btn-primary btn-sm">📄 Article (Applied Sciences, 2025)</a> <a href="https://github.com/jcaceres-academico/OpenUrbanAirandMeteorological" class="btn btn-info btn-sm">💻 Repository</a> <a href="https://jcaceres-academico.github.io/OpenUrbanAirandMeteorological/docs/OpenUrbanAir_and_Meteorological_Workflow.html" class="btn btn-success btn-sm">📘 Notebook</a>
-</p>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="card shadow-sm border-0 p-3 h-100">
-<div class="card-body">
-<h5 class="card-title anchored">
-🌱 Behavioural and Institutional Drivers of Green Technology Adoption
-</h5>
-<p class="card-text">
-A TAM-based framework for sustainability transitions (Frontiers in Psychology, 2025)
-</p>
-<p>
-<a href="#" class="btn btn-primary btn-sm">📄 Article</a> <a href="https://github.com/jcaceres-academico/GreenTechnologyAdoption" class="btn btn-info btn-sm">💻 Repository</a> <a href="#" class="btn btn-success btn-sm">📘 README</a>
-</p>
-</div>
-</div>
-</div>
+
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="card-body">
+        <h5 class="card-title anchored" data-anchor-id="publications-open-repositories">🎓 Citizen Science and STEM Education with R</h5>
+        <p class="card-text">
+          Reproducible learning from open urban air and meteorological data (Madrid, 2020–2024)
+        </p>
+        <p>
+          <a href="https://jcaceres-academico.github.io/OpenUrbanAirandMeteorological/" target="_blank" class="btn btn-primary btn-sm">📄 Article (Applied Sciences, 2025)</a>
+          <a href="https://github.com/jcaceres-academico/OpenUrbanAirandMeteorological" target="_blank" class="btn btn-info btn-sm">💻 Repository</a>
+          <a href="https://jcaceres-academico.github.io/OpenUrbanAirandMeteorological/docs/notebooks/summary.html" target="_blank" class="btn btn-success btn-sm">📘 Notebook</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="card-body">
+        <h5 class="card-title anchored">🌱 Behavioural and Institutional Drivers of Green Technology Adoption</h5>
+        <p class="card-text">
+          A TAM-based framework for sustainability transitions (Frontiers in Psychology, 2025)
+        </p>
+        <p>
+          <a href="#" target="_blank" class="btn btn-primary btn-sm">📄 Article</a>
+          <a href="https://github.com/jcaceres-academico/GreenTechnologyAdoption" target="_blank" class="btn btn-info btn-sm">💻 Repository</a>
+          <a href="#" target="_blank" class="btn btn-success btn-sm">📘 README</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
 </div>
 <hr>
 </section>
-<section id="connect" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> 🌐 Connect</h1>
-<div class="links-block">
-<p><a href="https://www.linkedin.com/in/jcaceresjt/">🔗 LinkedIn</a> · <a href="https://es.scribd.com/user/216839998/Jesus-Caceres-Tello">📘 Scribd</a> · <a href="https://es.slideshare.net/JessCceresTello/">📊 SlideShare</a> · <a href="https://goldendatascience.blogspot.com/">🧠 Blog</a> · <a href="https://orcid.org">🧬 ORCID</a></p>
+<section id="connect" class="level1">
+<h1>🌐 Connect</h1>
+
+<div style="display:flex; flex-wrap:wrap; gap:1.2rem; align-items:center; justify-content:flex-start;">
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/jcacerestj/" target="_blank" title="LinkedIn" style="text-decoration:none;">
+    <i class="bi bi-linkedin" style="font-size:2rem; color:#0A66C2;"></i>
+  </a>
+
+  <!-- Scribd -->
+  <a href="https://www.scribd.com/user/218639089/Jes%C3%BAs-C%C3%A1ceres-Tello" target="_blank" title="Scribd" style="text-decoration:none;">
+    <img src="images/scribd.png" alt="Scribd" class="icon-img">
+  </a>
+
+  <!-- SlideShare -->
+  <a href="https://www.slideshare.net/JesusCaceresTello" target="_blank" title="SlideShare" style="text-decoration:none;">
+    <img src="images/slideshare.png" alt="SlideShare" class="icon-img">
+  </a>
+
+  <!-- Blog (Golden Data Science) -->
+  <a href="https://goldendatascience.com" target="_blank" title="Blog" style="text-decoration:none;">
+    <i class="bi bi-journal-text" style="font-size:2rem; color:#FBBF24;"></i>
+  </a>
+
+  <!-- ORCID -->
+  <a href="https://orcid.org/0000-0002-5536-3623" target="_blank" title="ORCID" style="text-decoration:none;">
+    <img src="images/orcid.png" alt="ORCID" class="icon-img">
+  </a>
+
 </div>
-<hr>
+
+---
+
 <div class="footer">
-<p>© 2025 <strong>Jesús Cáceres Tello</strong> — Hosted on <a href="https://github.com/jcaceres-academico/jcaceres-academico.github.io">GitHub Pages</a> · Powered by <a href="https://quarto.org">Quarto</a></p>
+© 2025 **Jesús Cáceres Tello** — Hosted on [GitHub Pages](https://github.com/jcaceres-academico/jcaceres-academico.github.io) · Powered by [Quarto](https://quarto.org)
 </div>
 
 
@@ -661,6 +698,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 Jesús Cáceres Tello</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with ❤️ using Quarto &amp; GitHub Pages</p>
+</div>
+  </div>
+</footer>
 
 
 

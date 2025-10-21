@@ -1,219 +1,134 @@
+/* === FONT IMPORTS === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap');
+
+/* === GLOBAL STYLING === */
 body {
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  color: #222;
-  line-height: 1.6;
-  max-width: 900px;
-  margin: auto;
-  padding: 2em;
-  background-color: #fafafa;
-}
-
-h1.title {
-  font-size: 2.4em;
-  text-align: center;
-  color: #003366;
-  font-weight: 700;
-  margin-bottom: 0.2em;
-}
-
-.subtitle {
-  font-size: 1.1em;
-  text-align: center;
-  color: #555;
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
+  line-height: 1.65;
+  color: #1f2937;
+  background-color: #f9fafb;
   font-weight: 400;
-  margin-bottom: 1.8em;
 }
 
-h2, h3 {
-  color: #003366;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 0.2em;
-}
-
-.intro-block {
-  background: #f5f9ff;
-  border-left: 5px solid #007acc;
-  padding: 1em 1.5em;
-  border-radius: 8px;
-}
-
-.links-block {
+/* === HEADER SECTION === */
+.quarto-title-block {
   text-align: center;
-  font-size: 1.1em;
-  margin-top: 1em;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  border: none !important;
 }
 
-.links-block a {
-  color: #00509e;
-  text-decoration: none;
-  margin: 0 0.4em;
-}
-
-.links-block a:hover {
-  text-decoration: underline;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5em 0;
-}
-
-th, td {
-  border-bottom: 1px solid #ddd;
-  padding: 0.7em;
-}
-
-th {
-  background-color: #eef3f9;
-  text-align: left;
-}
-
-tr:hover {
-  background-color: #f9fcff;
-}
-
-.footer {
-  text-align: center;
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 2em;
-}
-
-/* ==== Publications Table (Bootstrap-like layout) ==== */
-
-.pub-table {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5em;
-  margin-top: 1.2em;
-}
-
-.pub-row {
-  background: #ffffff;
-  border: 1px solid #d6e2f0;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  padding: 1.2em 1.4em;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.pub-row:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 10px rgba(0,0,0,0.1);
-}
-
-.pub-title {
-  font-size: 1.1em;
-  color: #003366;
-  margin-bottom: 0.2em;
-}
-
-.pub-desc {
-  color: #555;
-  font-size: 0.96em;
-  margin-bottom: 0.6em;
-}
-
-.pub-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4em;
-}
-
-.pub-btn {
-  display: inline-block;
-  padding: 0.35em 0.7em;
-  border-radius: 6px;
-  font-size: 0.9em;
-  font-weight: 500;
-  text-decoration: none;
-  color: #fff;
-  transition: all 0.15s ease-in-out;
-}
-
-.pub-btn.article { background-color: #005b96; }
-.pub-btn.repo { background-color: #007acc; }
-.pub-btn.notebook { background-color: #2ca58d; }
-
-.pub-btn:hover {
-  opacity: 0.85;
-  text-decoration: none;
-  transform: translateY(-1px);
-}
-
-/* ====== Publication cards (Bootstrap grid layout) ====== */
-
-.card {
-  border-radius: 12px;
-  transition: all 0.25s ease-in-out;
-  background-color: #ffffff;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-}
-
-.card-title {
-  color: #003366;
+.quarto-title-block .title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.6rem;
   font-weight: 600;
-  font-size: 1.05em;
+  color: #1e3a8a;
+  letter-spacing: 0.4px;
 }
 
-.card-text {
-  font-size: 0.95em;
-  color: #555;
-  margin-bottom: 1em;
-}
-
-.btn {
-  margin-right: 0.3em;
-  font-weight: 500;
-  border: none;
-  transition: opacity 0.2s ease;
-}
-
-.btn:hover {
-  opacity: 0.9;
-}
-
-.btn-primary { background-color: #005b96; }
-.btn-info { background-color: #007acc; }
-.btn-success { background-color: #2ca58d; }
-
-
-/* ==== Header and subtitle styling ==== */
-
-h1.title {
-  font-size: 3 em;
-  font-weight: 700;
-  color: #00264d;
-  text-align: center;
-  margin-bottom: 0.1em;
-}
-
-.portfolio-sub {
-  display: block;
-  font-size: 1.4em;
+.quarto-title-block .subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  color: #3b82f6;
   font-weight: 400;
-  color: #336699;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0.4em;
-  letter-spacing: 0.5px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
-.research-areas {
-  text-align: center;
-  font-size: 1em;
-  color: #444;
-  margin-top: 0.2em;
-  margin-bottom: 1.5em;
-  line-height: 1.4em;
+/* === SECTION HEADERS === */
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #1e3a8a;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-.research-areas strong {
-  color: #003366;
+/* === SIDEBAR (Contents) === */
+.sidebar {
+  width: 17rem !important;
+  background-color: transparent;
+  border: none !important;
+}
+
+.sidebar nav {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.sidebar .nav-link {
+  border-left: 3px solid transparent;
+  padding-left: 0.8rem;
+  white-space: normal;
+}
+
+.sidebar .nav-link.active {
+  color: #1e3a8a !important;
+  border-left-color: #3b82f6;
+  background-color: #e0e7ff1a;
+  border-radius: 4px;
+}
+
+.icon-img {
+    height: 36px;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 6px;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out, filter 0.2s ease-in-out;
+  }
+
+  a:hover i, a:hover .icon-img {
+    transform: scale(1.1);
+    opacity: 0.85;
+  }
+
+  /* Dark mode: suaviza los PNG sobre fondo oscuro */
+  @media (prefers-color-scheme: dark) {
+    .icon-img {
+      filter: brightness(1.2);
+    }
+  }
+
+/* === REMOVE HORIZONTAL RULES === */
+hr {
+  border: none !important;
+  height: 0;
+  margin: 0;
+}
+
+/* === MAIN CONTENT WIDTH === */
+main.content {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* === FOOTER === */
+.page-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+/* === CONNECT ICONS === */
+.connect-icons a i {
+  font-size: 2rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.connect-icons a:hover i {
+  transform: scale(1.15);
+  opacity: 0.85;
+}
+
+
+/* === MAIN CONTENT WIDTH === */
+main.content {
+  max-width: 940px;
+  margin: 0 auto;
 }
 
